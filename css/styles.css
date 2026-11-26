@@ -4582,8 +4582,7 @@ body.theme-dark { margin: 0; background: #000; font-family: var(--font-ui); }
 }
 
 
-/* REF-NOVA-CONTACTO-ZONA-OESTE | Mantiene los efectos de la fila, sin simular navegación. */
-.contact-row--inactive{ cursor: default; }
+/* REF-NOVA-CONTACTO-ZONA-OESTE | Comparte los estilos y efectos de .contact-row. */
 
 /* v47 | REF-NOVA-PROMO-02-DETALLE: la tercera imagen llena el mismo cuadrado en móvil, sin bandas laterales. */
 @media (max-width: 600px) {

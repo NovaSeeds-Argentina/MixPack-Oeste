@@ -1,5 +1,5 @@
 /* NOVA Seeds — PWA con caché acotada al sitio y navegación sin conexión. */
-const CACHE_NAME = 'novaseeds-shell-2026-11-v48';
+const CACHE_NAME = 'nova-oeste-shell-2026-11-v50';
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -59,7 +59,7 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {
     for (const key of await caches.keys()) {
-      if (key.startsWith('novaseeds-shell-') && key !== CACHE_NAME) await caches.delete(key);
+      if (key.startsWith('nova-oeste-shell-') && key !== CACHE_NAME) await caches.delete(key);
     }
     await self.clients.claim();
   })());
