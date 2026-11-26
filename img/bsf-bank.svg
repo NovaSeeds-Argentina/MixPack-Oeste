@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="BSF">
+  <!-- REF-NOVA-TARJETAS-BANCO: recreación vectorial de la referencia circular. -->
+  <circle cx="50" cy="50" r="48" fill="#fff" stroke="#d7d7d7" stroke-width="1.5"/>
+  <g fill="#fff" stroke="#202124" stroke-width="2.5" stroke-linejoin="round" fill-rule="evenodd" transform="translate(5 4) scale(.9)">
+    <path d="M14 35H35L41 40L38 48L34 50L37 53L34 62L28 65H7L14 35ZM23 42L21.5 47H29L30.5 42H23ZM20 53L18.5 58H26L27.5 53H20Z"/>
+    <path d="M47 35H68L65.5 45H55L56 42H49L48 47H60L63 51L60 60L54 65H34L36.5 55H47L46 58H52L53.5 53H42L38 49L41 40Z"/>
+    <path d="M70 35H94L91.5 45H81L82 42H77L75.5 48H86L84 55H73.5L71 65H60L67 35Z"/>
+  </g>
+</svg>
